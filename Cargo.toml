@@ -19,7 +19,7 @@ bincode = "1.2.1"
 hex = "0.4.2"
 cmdr = "0.3.11"
 tokio = { version = "0.3", features = ["full"] }
-qp2p = { path = "../qp2p" }
+qp2p = { git = "https://github.com/maidsafe/qp2p.git", commit="ae2453eee533500c8e1661a5f891dda47347865e" }
 
 [profile.test]
 # Property testing is a power hungry beast, we need to go as fast as we can
